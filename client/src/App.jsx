@@ -11,7 +11,7 @@ import { UserContextProvider } from '../context/userContext';
 //import Dashboard from './pages/Dashboard';
 import NotesPage from './components/Notes/NotesPage';
 
-axios.defaults.baseURL = 'http://localhost:8000';
+axios.defaults.baseURL = 'https://notesapp-backend-u0ue.onrender.com';
 axios.defaults.withCredentials = true;
 
 function App() {
